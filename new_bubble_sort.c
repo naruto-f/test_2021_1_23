@@ -12,6 +12,7 @@
 
 //重写的bubble_sort()是仿照库函数qsort的实现思想，可以实现各种数据类型的冒泡排序
 
+/*
 struct stu
 {
     int age;
@@ -70,7 +71,7 @@ bubble_sort(void* arr, int size, int width, int(*cmp)(const void* ,const void*))
         }
     }
 }
-
+*/
 
 /*
 int main()
@@ -88,6 +89,7 @@ int main()
 */
 
 
+/*
 int main()
 {
     struct stu st[3] = { {12, "zhangsan"}, {10, "lisi"}, {80, "wanger"} };
@@ -96,3 +98,4 @@ int main()
     bubble_sort(st, size, sizeof(st[0]), cmp_stu_by_name);
     return 0; 
 }
+*/
